@@ -38,9 +38,9 @@ VALUES
 (FALSE, TRUE, 1, 12, "2026-06-01 16:00:00", "2026-06-01 17:00:00", 3, 2);
 
 INSERT INTO inscription
-(utilisateur_id, seance_id)
+(utilisateur_id, seance_id, date_inscription)
 VALUES
-(4, 3),
-(8, 2),
-(8, 4),
-(5, 1);
+(4, 3, "2024-06-01 16:00:00"),
+(8, 2, "2024-06-01 16:00:00"),
+(8, 4, "2024-06-01 16:00:00"),
+(5, 1, "2024-06-01 16:00:00");
