@@ -9,7 +9,7 @@ SELECT *
 FROM utilisateur u
 INNER JOIN seance s ON u.utilisateur_id = s.utilisateur_id;
 
--- Inscription aux séances
+-- Inscriptions aux séances
 SELECT *
 FROM utilisateur u
 INNER JOIN inscription i ON u.utilisateur_id = i.utilisateur_id
